@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <title>Font Manipulator</title>
+  <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/robots-and-mashines-for-automobile-industry/512/manipulator-hand-robot-mashine-industrial-work-512.png" type="image/icon type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+      <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+      <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+  var _smartsupp = _smartsupp || {};
+  _smartsupp.key = '42531907fb33425900d8402a508b2235ef2177cf';
+  window.smartsupp||(function(d) {
+    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+    c.type='text/javascript';c.charset='utf-8';c.async=true;
+    c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+  })(document);
+  </script>
+</head>
+
+<body background="https://previews.123rf.com/images/leoedition/leoedition1905/leoedition190500389/122810654-board-games-hand-draw-doodle-background-vector-illustration-.jpg">
+<center>
+  <h3 class="btn btn-warning heading">Font Manipulator Part-2
+    <br>
+    <span class="important">NOTE - Get your left and right wrist closer to each other
+      to reduce the font size and to increase the font size 
+      keep your left and right wrist far from each other. 
+    </span>
+    <br>
+    <span id="font_size"></span>
+  </h3>
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+</center>
+<center><label>Word To Be Displayed</label></center>
+<input type="text" id="text" class="form-control" placeholder="Please Write Words Here!..">
+<div class="copy_right_footer">
+  Developed By Pratham
+</div>
+
+<script src="main.js"></script>
+<script>
+  $(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+  });
+</script>
+</body>
+
+</html>
